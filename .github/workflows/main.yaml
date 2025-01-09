@@ -15,5 +15,5 @@ jobs:  # Telling what jobs we need to happen
     runs-on: ubuntu-latest
     steps: 
       # Checkout Repo
-      name: Checkout Repo
+    - name: Checkout Repo
       uses: actions/checkout@v3
