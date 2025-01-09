@@ -1,0 +1,4 @@
+# melos_managed_dependency_overrides: counter_test
+dependency_overrides:
+  counter_test:
+    path: ../../packages/counter_test

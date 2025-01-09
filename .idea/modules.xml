@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/packages/counter_test/melos_counter_test.iml" filepath="$PROJECT_DIR$/packages/counter_test/melos_counter_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/melos_test/melos_melos_test.iml" filepath="$PROJECT_DIR$/apps/melos_test/melos_melos_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melos_melos_test.iml" filepath="$PROJECT_DIR$/melos_melos_test.iml" />
+    </modules>
+  </component>
+</project>

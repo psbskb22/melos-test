@@ -1,0 +1,25 @@
+name: melos_test
+
+command:
+  bootstrap:
+    usePubspecOverrides: true
+    hooks:
+      post: melos generate
+
+packages:
+  - apps/*
+  - packages/*
+
+scripts:
+  analyze:
+    exec: dart analyze .
+  runApp:
+    exec: flutter run
+    dir-exists: "lib"
+    no-select: true
+    description: Run App
+
+  test:all_unit_tests:
+    exec: flutter test
+    no-select: true
+    description: Run all unit tests.Additionally, you can incorporate commands for analysis and code coverage. Melos offers a GUI interface for seamless execution without terminal input.
